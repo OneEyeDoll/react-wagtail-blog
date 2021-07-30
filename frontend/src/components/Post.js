@@ -17,7 +17,7 @@ export default class Post extends Component{
 
     }
     componentDidMount(){
-        fetch('/api/v2/pages/?type=blog.BlogPage&fields=body,date,feed_image',
+        fetch('/api/v2/pages/?type=blog.BlogPage&fields=body,date,feed_image&title='+this.props.title,
         {
             method: "GET",
             headers: {
