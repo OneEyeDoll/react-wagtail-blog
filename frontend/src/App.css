@@ -8,7 +8,17 @@ ul.pagination {
     background-color: #e3e7eb !important;
     border-color: #ced4da !important; }
   ul.pagination a.page-link {
-    padding: 0.75rem 1rem;
+    padding: 0.75rem 1rem; .about{
+    grid-area: about;
+
+  }
+  .contentLayout{
+    margin-left:5%;
+    grid-area:contentLayout;
+  }
+  .related { grid-area: related; 
+    margin-bottom:10%;
+}
     min-width: 3.5rem;
     text-align: center;
     box-shadow: none !important;
@@ -124,11 +134,16 @@ ul.pagination {
       "contentLayout contentLayout contentLayout contentLayout"
       "related related related related";
   }
-  .about{
+   .about{
     grid-area: about;
 
   }
+  .contentLayout{
+    margin-left:5%;
+    grid-area:contentLayout;
+  }
   .related { grid-area: related; 
+    margin-bottom:10%;
 }
 
 
